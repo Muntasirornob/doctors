@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card{
+    width: 15rem;
+    height: 42px;
+    background-color: #666;
+    margin-bottom: 8px;
+    border-radius: 4px;
+}
+.card h4{
+    color: black;
+    padding-top: 8px;
+}
+
+.card:hover{
+    background-color: #42B32F;
+    color: white;
+    border: 1px solid #42B32F;
+}
+.container {
+    overflow: hidden;
+  }
+  
+  .filterDiv {
+    float: left;
+    border: 1px solid #42B32F;
+    background: rgb(154,213,151);
+    background: linear-gradient(129deg, rgba(154,213,151,1) 3%, rgba(192,212,196,1) 98%);
+    color: black;
+    width: 270px;
+    line-height: 290px;
+    text-align: center;
+    margin: 7px;
+    display: none; /* Hidden by default */
+  }
+  
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  }
+  
+  /* Style the buttons */
+  .btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  
+  /* Add a light grey background on mouse-over */
+  .btn:hover {
+    background-color: #ddd;
+  }
+  
+  /* Add a dark background to the active button */
+  .btn.active {
+    background-color: #666;
+    color: white;
+  }
+
+  .filter-button
+  {
+      font-size: 18px;
+      border: 1px solid #42B32F;
+      border-radius: 5px;
+      text-align: center;
+      color: #42B32F;
+      margin-bottom: 30px;
+      
+  
+  }
+  .filter-button:hover
+  {
+      font-size: 18px;
+      border: 1px solid #42B32F;
+      border-radius: 5px;
+      text-align: center;
+      color: #ffffff;
+      background-color: #42B32F;
+  
+  }
+  .btn-default:active .filter-button:active
+  {
+      background-color: #42B32F;
+      color: white;
+  }
+  
+.img-responsive{
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+    width: 100%;
+    height: 250px;
+}
+ 
+.img-responsive:hover{
+    transform: scale(1.08);
+    
+}
+
+.container-fluid {
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('./images/d1.jpg');
+    
+}
+
+.department {
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.department h2 {
+    font-style: bold;
+}
+
+.gallery-title{
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 600px){
+    .filterDiv{
+        margin-left: 80px;
+    }
+    
+
+}
